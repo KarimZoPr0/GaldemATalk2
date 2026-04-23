@@ -5,7 +5,7 @@ export const OmOss = () => {
     <section
       id="om-oss"
       data-testid="about-section"
-      className="relative bg-[#F4F3EF] text-[#0F0F0F] py-24 md:py-36"
+      className="relative bg-[#F4F3EF] text-[#0F0F0F] py-24 md:py-36 overflow-hidden"
     >
       <div className="max-w-[1400px] mx-auto px-5 md:px-10">
         {/* Section tag */}
@@ -60,9 +60,14 @@ export const OmOss = () => {
           </div>
 
           {/* Right: editorial image */}
-          <div className="col-span-12 md:col-span-5">
+          <div className="col-span-12 md:col-span-5 overflow-hidden">
             <div className="relative ribbon-rotate">
-              <div className="relative border-2 border-[#0F0F0F] bg-[#EAE8E1] p-2">
+              <div
+                aria-hidden
+                className="absolute inset-2 bg-[#5C6BC0] z-0"
+                style={{ transform: "translate(16px, 18px) rotate(1deg)" }}
+              />
+              <div className="relative z-10 border-2 border-[#0F0F0F] bg-[#EAE8E1] p-2">
                 <img
                   src={ASSETS.omOss}
                   alt="Systerskap — medlemmar kramas ute i naturen"
@@ -76,11 +81,6 @@ export const OmOss = () => {
                   <span className="font-display text-lg">★</span>
                 </div>
               </div>
-              <div
-                aria-hidden
-                className="absolute -z-0 inset-2 bg-[#5C6BC0]"
-                style={{ transform: "translate(16px, 18px) rotate(1deg)" }}
-              />
             </div>
           </div>
         </div>
