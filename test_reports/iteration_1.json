@@ -1,0 +1,47 @@
+{
+  "summary": "Frontend-only review of Galdem A Talk static Swedish marketing site. Verified all 13 requested features via Playwright at 375/768/1440 viewports. All content, data-testids, external links (Google Forms, Instagram, TikTok, YouTube, mail), board order (5 members, no imgs), partner marquee (3 partners, right-scrolling animation), article external links (ungmedia.se, dopest.se, dn.se) and smooth-anchor navigation pass. Two real UI bugs found — both originate from the <div class='ribbon-rotate'> block in OmOss.jsx: (1) purple offset decoration visually covers the team photo on desktop due to a z-index stacking bug, and (2) the same block causes 18px of horizontal page scroll at 375px mobile.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [
+      {
+        "component": "OmOss.jsx (ribbon-rotate block)",
+        "issue": "Decorative purple offset <div class='absolute -z-0 inset-2 bg-[#5C6BC0]'> renders ON TOP of the team photo instead of behind it. Both siblings are positioned; the image wrapper has z-auto while the decoration is z-index:0. Because the decoration is last in DOM order and has an explicit z-index >= the image wrapper's auto value, it wins the stacking. The team photo (ASSETS.omOss) is effectively hidden behind a solid purple rectangle on all desktop viewports (>=768px). Fix: change `-z-0` to `-z-10` OR give the image wrapper `relative z-10`.",
+        "selector": "#om-oss .ribbon-rotate > div.absolute",
+        "priority": "HIGH"
+      },
+      {
+        "component": "OmOss.jsx (ribbon-rotate block)",
+        "issue": "Horizontal page overflow at 375px viewport. document.documentElement.scrollWidth=393 while innerWidth=375 (18px horizontal scroll). Root cause: the purple offset div uses `transform: translate(16px, 18px)` and its parent column has no overflow-clip, pushing content 10px past the viewport right edge. Fix: wrap the ribbon block (or the OmOss right column) with `overflow-hidden`, OR reduce the translate on small screens, OR add `overflow-x-hidden` to <main>/<body>.",
+        "selector": "#om-oss .ribbon-rotate",
+        "priority": "HIGH"
+      }
+    ],
+    "integration_issues": [],
+    "design_issues": [
+      {
+        "screen": "OmOss section (desktop)",
+        "issues": ["Intended layered-paper effect is broken — user sees a solid purple block where the editorial photo should be."]
+      }
+    ]
+  },
+  "test_report_links": [],
+  "action_items": [
+    "Fix OmOss.jsx: change the purple offset decoration from `-z-0` to `-z-10` (or add `relative z-10` to the image wrapper) so the team photo is visible behind the offset block.",
+    "Fix OmOss.jsx horizontal overflow at 375px caused by the translated purple block — add `overflow-hidden` on the `.ribbon-rotate` parent column or on <main>, or adjust the translate on small breakpoints."
+  ],
+  "critical_code_review_comments": [
+    "OmOss.jsx line 79-83: `-z-0` is z-index:0 in Tailwind (not negative). For a behind-the-card offset you want `-z-10` (z-index:-10) AND the image wrapper should set `relative z-10` to guarantee stacking regardless of Tailwind version.",
+    "Hero.jsx renders a `rotate(90deg)` caption positioned with `right-6` — safe since it's `hidden md:block`. Acceptable.",
+    "PartnerMarquee.jsx duplicates the partner array 8x for a seamless -50% translate animation — works, but loopOne already has 12 items; final `loop` of 24 is fine. Marquee animation verified (animation-name=marquee-right, duration=38s, direction visually right-to-left is actually `translate3d(-50%,0) -> translate3d(0,0)` which is RIGHT-scroll as requested).",
+    "site.js ARTICLES has the 3 required outlets with correct hrefs and target=_blank is applied at the <a> level in Articles.jsx. Easy to extend by pushing into the array — matches PRD.",
+    "No backend endpoints were touched (backend is default FastAPI template, testing_type=frontend only, per review_request)."
+  ],
+  "updated_files": [],
+  "success_rate": {"backend": "n/a (not tested per request)", "frontend": "85% (11/13 flows fully pass; 2 UI bugs in OmOss ribbon block)"},
+  "test_credentials": "n/a",
+  "seed_data_creation": "none",
+  "retest_needed": true,
+  "main_agent_can_self_test": true,
+  "context_for_next_testing_agent": "All external links, data-testids, content, board order, marquee animation, responsive mobile menu toggle at 375px, and smooth anchor scroll are verified. Re-test focus after fix: (a) open desktop 1440 and confirm the team photo under #om-oss is visible (not covered by solid purple), (b) open mobile 375 and confirm `document.documentElement.scrollWidth === window.innerWidth` (no horizontal scroll). Preview URL: https://suburb-voices.preview.emergentagent.com",
+  "rca of the issue": "Both bugs share the same DOM node: OmOss.jsx lines 64-84 (`div.ribbon-rotate`). (1) Stacking: in Tailwind, `-z-0` compiles to `z-index:0`, not a negative value. Its positioned sibling (the image wrapper) uses z-auto. Among positioned siblings with auto z-index and z-index 0, the later one in DOM order paints on top — so the purple block covers the photo. (2) Overflow: the same decorative div is `absolute inset-2` with `transform: translate(16px, 18px) rotate(1deg)`, making its bounding box extend 10-18px past the parent column's right edge. No ancestor in its chain has overflow-hidden on mobile (the section's overflow-hidden is not present on OmOss; only Poddfestivalen/Membership/Footer set it). Hence scrollWidth leaks to <html>, producing 18px of horizontal scroll at 375px. Mitigation: (a) `-z-10` on the decoration + `relative z-10` on the image wrapper, (b) add `overflow-hidden` to the OmOss <section> OR to the right column wrapper, or globally apply `overflow-x: hidden` on <body>/<main>."
+}
