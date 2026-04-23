@@ -1,0 +1,107 @@
+{
+  "theme": "Mixed (Dark Hero, Light Body)",
+  "archetype": "Editorial Zine / Grassroots Manifesto",
+  "typography": {
+    "fonts": {
+      "headings": "Bebas Neue",
+      "subheadings": "Cabinet Grotesk",
+      "body": "Chivo"
+    },
+    "rules": {
+      "h1": "text-5xl md:text-6xl tracking-tighter uppercase leading-none",
+      "h2": "text-4xl md:text-5xl tracking-tight uppercase leading-none",
+      "body": "text-base md:text-lg leading-relaxed tracking-normal",
+      "alignment": "Strict left-alignment for all dense text and headers to maintain an editorial, poster-like tension. Avoid centering."
+    }
+  },
+  "colors": {
+    "backgrounds": {
+      "hero": "#0F0F0F",
+      "body": "#F4F3EF",
+      "accent_sections": "#E5E7EB"
+    },
+    "text": {
+      "on_dark": "#F4F3EF",
+      "on_light": "#0F0F0F",
+      "muted": "#4B5563"
+    },
+    "brand": {
+      "primary": "#5C6BC0",
+      "secondary": "#93C5FD",
+      "rule": "Use solid blocks of color. NO GRADIENTS. The purple/blue should feel like screen-printed ink on paper, not digital glowing light."
+    }
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Generous spacing. Use py-24 or py-32 for sections. gap-8 to gap-12 in grids.",
+    "grid_strategy": "Asymmetric bento / Tetris grid. Elements should span different column widths to create tension. Avoid perfect 3-column symmetry where possible.",
+    "borders": "Use 1px or 2px solid borders (border-[#0F0F0F]) to create a zine/magazine layout structure. High contrast, sharp edges, no soft shadows."
+  },
+  "motion_and_interaction": {
+    "marquee": "Use react-fast-marquee. Scroll direction: RIGHT. Infinite smooth loop. Logos must be placed in fixed-width containers (e.g., w-48) to prevent overlapping.",
+    "hover_states": "Hard color inversion on buttons. No soft fades. E.g., hover:bg-[#0F0F0F] hover:text-[#F4F3EF].",
+    "scroll": "Smooth scrolling (Lenis recommended if possible) for premium feel."
+  },
+  "components": {
+    "buttons": "Square or very slightly rounded (rounded-sm). Massive padding (px-8 py-4). Uppercase, bold typography.",
+    "cards": "For articles: Solid background, 2px dark border, brutalist aesthetic. Images take up top half, text below with hard dividing line.",
+    "board_list": "2-column or 3-column CSS grid. Name in bold Cabinet Grotesk, role in smaller Chivo. NO IMAGES. Add a hard bottom border to each person's row for an editorial directory look."
+  },
+  "sections_and_media": {
+    "header": {
+      "instructions": "Sticky header with backdrop-blur. Logo on left, nav links and CTA on right.",
+      "assets": {
+        "logo": "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/bo6kock2_huvudlogo.png"
+      }
+    },
+    "hero": {
+      "instructions": "Dark mode manifesto. Massive H1 (Bebas Neue) overlaying the background image. Dark overlay (bg-black/60) to ensure text pops. Real CTA button leading to Google Form.",
+      "assets": {
+        "background": "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/cqtgjfgt_team4.jpg"
+      }
+    },
+    "marquee_partners": {
+      "instructions": "Infinite smooth loop scrolling RIGHT. Background: #F4F3EF. Logos in monochrome or as provided.",
+      "assets": {
+        "logo_1": "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/2x7a24t2_StockholmsStad_logotypeStandardA4_300ppi_svart.png",
+        "logo_2": "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/mgffk323_folkets-husby-logo.png",
+        "logo_3": "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/98v00qoh_galdem_a_talk_samarbete_logo.png"
+      }
+    },
+    "om_oss": {
+      "instructions": "Light mode. Purpose of the association (representation, inclusion, sisterhood). Include the Board (Styrelse) list here. Use team3.jpg as a supporting editorial image on the side.",
+      "assets": {
+        "image_1": "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/6ff8hcxk_team3.jpg"
+      }
+    },
+    "poddfestivalen": {
+      "instructions": "Story of Sweden's first podcast festival. Collage or asymmetric layout using multiple images to show the vibe.",
+      "assets": {
+        "image_1": "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/sr7rjhg8_audience.jpg",
+        "image_2": "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/gb09eeoy_panel.jpg",
+        "image_3": "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/ahr0y0xl_poddfest.jpg",
+        "image_4": "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/cij0jdwx_team2.jpg"
+      }
+    },
+    "artiklar": {
+      "instructions": "Grid of 3 articles. Each card has an image placeholder (or use one of the event photos), title, and 'Läs mer' pointing to external link.",
+      "content": [
+        {"title": "Månadens förening augusti 2023", "source": "ungmedia.se"},
+        {"title": "Poddfestival 2024 Husby Stockholm", "source": "dopest.se"},
+        {"title": "Folkets Husby intervju", "source": "DN kultur"}
+      ]
+    },
+    "medlemskap": {
+      "instructions": "Massive CTA section. Brand primary background (#5C6BC0) with dark #0F0F0F text. Bold, punchy statement leading to Google Form."
+    },
+    "footer": {
+      "instructions": "Dark mode footer. Huge typography for 'GALDEM A TALK'. Social links (Instagram, TikTok, YouTube) and email.",
+      "contact": "forening@galdematalk.com"
+    }
+  },
+  "critical_rules": [
+    "NO AI VIBE: Avoid purple-on-white gradients, glowing neon shadows, and generic rounded cards.",
+    "NO PROFILE PICTURES for the board members.",
+    "Only use Swedish text.",
+    "Add data-testid to all interactive elements."
+  ]
+}
