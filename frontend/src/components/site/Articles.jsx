@@ -2,6 +2,11 @@ import { ARTICLES } from "@/data/site";
 import { ArrowUpRight } from "lucide-react";
 
 export const Articles = () => {
+  // Senaste först — sortera automatiskt så framtida artiklar hamnar rätt
+  const sorted = [...ARTICLES].sort(
+    (a, b) => parseInt(b.year, 10) - parseInt(a.year, 10)
+  );
+
   return (
     <section
       id="artiklar"
