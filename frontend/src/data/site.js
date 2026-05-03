@@ -47,7 +47,7 @@ export const ARTICLES = [
     image:
       "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/gb09eeoy_panel.jpg",
     href: "https://www.dn.se/kultur/folkets-husby-for-oss-ar-det-folk-som-dor-for-netflix-ar-det-stora-pengar/",
-    year: "2024",
+    year: "2023",
   },
   {
     id: "dopest-poddfestival-2024",
@@ -55,7 +55,7 @@ export const ARTICLES = [
     outlet: "dopest.se",
     title: "Poddfestivalen 2024 — Husby, Stockholm",
     excerpt:
-      "En rapport från andra upplagan av Poddfestivalen. Samtal, scen, systerskap och en publik som tog plats hela helgen i Husby.",
+      "Poddfestivalen 2024 intar Husby. Galdem A Talk arrangerar sin tredje upplaga av festivalen med livepoddar, musik och fokus på representation i media.",
     image:
       "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/sr7rjhg8_audience.jpg",
     href: "https://dopest.se/poddfestival-2024-husby-stockholm/",
@@ -67,7 +67,7 @@ export const ARTICLES = [
     outlet: "Ung Media Sverige",
     title: "Månadens förening — augusti 2023",
     excerpt:
-      "Galdem A Talk utsågs till Månadens förening i augusti 2023. En intervju om varför föreningen startades och vad systerskap innebär på riktigt.",
+      "Galdem A Talk utsågs till Månadens förening i augusti 2023. Möt Galdem A Talk i ett samtal om varför föreningen startades och vad systerskap innebär på riktigt.",
     image:
       "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/cij0jdwx_team2.jpg",
     href: "https://ungmedia.se/manadens-forening-augusti-2023-galdem-a-talk/",

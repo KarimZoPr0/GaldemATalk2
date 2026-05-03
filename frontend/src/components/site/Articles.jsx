@@ -14,9 +14,6 @@ export const Articles = () => {
             I pressen
           </span>
           <span className="flex-1 h-px bg-[#0F0F0F]/20" />
-          <span className="font-sub uppercase tracking-[0.25em] text-[11px] opacity-60">
-            {ARTICLES.length} artiklar — uppdateras
-          </span>
         </div>
 
         <div className="grid grid-cols-12 gap-6 md:gap-10 items-end mb-12 md:mb-16">
