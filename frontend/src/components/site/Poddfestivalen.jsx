@@ -13,7 +13,7 @@ export const Poddfestivalen = () => {
         {/* Section tag */}
         <div className="flex items-baseline gap-4 mb-10 md:mb-14 pt-6" style={{borderTop: "2px solid #F4F3EF"}}>
           <span className="font-sub uppercase tracking-[0.25em] text-[11px]">
-            № 02 — Poddfestivalen
+            Poddfestivalen
           </span>
           <span className="flex-1 h-px bg-[#F4F3EF]/25" />
           <span className="font-sub uppercase tracking-[0.25em] text-[11px] opacity-60">
@@ -78,9 +78,6 @@ export const Poddfestivalen = () => {
               className="w-full h-[320px] md:h-[460px] object-cover border-2 border-[#F4F3EF]"
               loading="lazy"
             />
-            <figcaption className="mt-3 font-sub uppercase tracking-[0.18em] text-[10px] text-[#F4F3EF]/60">
-              Fig. 02 — Publik, Folkets Husby
-            </figcaption>
           </figure>
 
           <figure className="col-span-6 md:col-span-5 relative md:mt-16">
@@ -90,9 +87,6 @@ export const Poddfestivalen = () => {
               className="w-full h-[200px] md:h-[320px] object-cover border-2 border-[#5C6BC0]"
               loading="lazy"
             />
-            <figcaption className="mt-3 font-sub uppercase tracking-[0.18em] text-[10px] text-[#F4F3EF]/60">
-              Fig. 03 — Värdar, upplaga 2024
-            </figcaption>
           </figure>
 
           <figure className="col-span-6 md:col-span-4 md:col-start-2 relative">
@@ -102,9 +96,6 @@ export const Poddfestivalen = () => {
               className="w-full h-[240px] md:h-[360px] object-cover border-2 border-[#F4F3EF]"
               loading="lazy"
             />
-            <figcaption className="mt-3 font-sub uppercase tracking-[0.18em] text-[10px] text-[#F4F3EF]/60">
-              Fig. 04 — Besökare
-            </figcaption>
           </figure>
 
           <figure className="col-span-12 md:col-span-7 relative">
@@ -114,9 +105,6 @@ export const Poddfestivalen = () => {
               className="w-full h-[260px] md:h-[380px] object-cover border-2 border-[#93C5FD]"
               loading="lazy"
             />
-            <figcaption className="mt-3 font-sub uppercase tracking-[0.18em] text-[10px] text-[#F4F3EF]/60">
-              Fig. 05 — Panel, scen A
-            </figcaption>
           </figure>
         </div>
 

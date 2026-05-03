@@ -19,7 +19,7 @@ export const Footer = () => {
       <div className="relative max-w-[1400px] mx-auto px-5 md:px-10 z-10">
         <div className="flex items-baseline gap-4 mb-10 pt-6" style={{borderTop: "2px solid #F4F3EF"}}>
           <span className="font-sub uppercase tracking-[0.25em] text-[11px]">
-            № 05 — Kontakt & socials
+            Kontakt & socials
           </span>
           <span className="flex-1 h-px bg-[#F4F3EF]/25" />
         </div>

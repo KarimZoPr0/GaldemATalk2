@@ -31,13 +31,11 @@ export const Hero = () => {
       {/* Top ticker */}
       <div className="relative z-10 border-b border-[#F4F3EF]/15 pt-20 md:pt-24">
         <div className="max-w-[1400px] mx-auto px-5 md:px-10 py-3 flex flex-wrap items-center gap-x-6 gap-y-2 font-sub text-[11px] uppercase tracking-[0.22em]">
-          <span className="ticker-num text-[#A7B1E0]">EST. 2023</span>
+          <span className="ticker-num text-[#A7B1E0]">Sedan 2023</span>
           <span className="opacity-60">/</span>
           <span>Husby — Stockholm</span>
           <span className="opacity-60">/</span>
           <span>Representation · Inkludering · Systerskap</span>
-          <span className="opacity-60 hidden md:inline">/</span>
-          <span className="hidden md:inline ticker-num text-[#A7B1E0]">Issue №01</span>
         </div>
       </div>
 
@@ -49,24 +47,24 @@ export const Hero = () => {
               data-testid="hero-eyebrow"
               className="font-sub uppercase tracking-[0.26em] text-[12px] text-[#A7B1E0] mb-6"
             >
-              Galdem A Talk Förening —
+              Husby — Stockholm — sedan 2023
             </p>
 
             <h1
               data-testid="hero-title"
               className="font-display uppercase leading-[0.82] text-[clamp(3.5rem,12vw,12rem)] tracking-tight"
             >
-              Vi tar
+              Galdem
               <br />
               <span className="inline-block relative">
-                <span className="relative z-10">plats.</span>
+                <span className="relative z-10">A Talk</span>
                 <span
                   aria-hidden
                   className="absolute left-0 bottom-[0.12em] h-[0.18em] w-full bg-[#5C6BC0] z-0"
                 />
               </span>
               <br />
-              <span className="text-[#A7B1E0]">Tillsammans.</span>
+              <span className="text-[#A7B1E0]">Förening.</span>
             </h1>
           </div>
 
@@ -107,7 +105,6 @@ export const Hero = () => {
           <div className="flex items-end gap-6 md:gap-10">
             <Stat n="16+" label="Åldersgrupp" />
             <Stat n="01" label="Sveriges första poddfestival" />
-            <Stat n="∞" label="Systerskap" />
           </div>
         </div>
       </div>

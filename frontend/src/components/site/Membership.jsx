@@ -13,11 +13,11 @@ export const Membership = () => {
       <div className="relative max-w-[1400px] mx-auto px-5 md:px-10 z-10">
         <div className="flex items-baseline gap-4 mb-10 md:mb-14 pt-6" style={{borderTop: "2px solid #0F0F0F"}}>
           <span className="font-sub uppercase tracking-[0.25em] text-[11px]">
-            № 04 — Medlemskap
+            Medlemskap
           </span>
           <span className="flex-1 h-px bg-[#0F0F0F]/30" />
           <span className="font-sub uppercase tracking-[0.25em] text-[11px]">
-            25/26
+            Verksamhetsåret 25/26
           </span>
         </div>
 

@@ -11,7 +11,7 @@ export const OmOss = () => {
         {/* Section tag */}
         <div className="flex items-baseline gap-4 mb-10 md:mb-14 rule-black pt-6">
           <span className="font-sub uppercase tracking-[0.25em] text-[11px]">
-            № 01 — Om oss
+            Om oss
           </span>
           <span className="flex-1 h-px bg-[#0F0F0F]/20" />
           <span className="font-sub uppercase tracking-[0.25em] text-[11px] opacity-60">
@@ -74,12 +74,6 @@ export const OmOss = () => {
                   className="w-full h-[420px] md:h-[520px] object-cover"
                   loading="lazy"
                 />
-                <div className="mt-2 flex items-center justify-between">
-                  <span className="font-sub uppercase tracking-[0.18em] text-[10px]">
-                    Fig. 01 — Systerskap i praktiken
-                  </span>
-                  <span className="font-display text-lg">★</span>
-                </div>
               </div>
             </div>
           </div>
