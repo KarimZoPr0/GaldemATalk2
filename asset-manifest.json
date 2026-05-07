@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/GaldemATalk2/static/css/main.d62e409b.css",
-    "main.js": "/GaldemATalk2/static/js/main.c9088167.js",
+    "main.js": "/GaldemATalk2/static/js/main.c185d94d.js",
     "index.html": "/GaldemATalk2/index.html",
     "main.d62e409b.css.map": "/GaldemATalk2/static/css/main.d62e409b.css.map",
-    "main.c9088167.js.map": "/GaldemATalk2/static/js/main.c9088167.js.map"
+    "main.c185d94d.js.map": "/GaldemATalk2/static/js/main.c185d94d.js.map"
   },
   "entrypoints": [
     "static/css/main.d62e409b.css",
-    "static/js/main.c9088167.js"
+    "static/js/main.c185d94d.js"
   ]
 }
