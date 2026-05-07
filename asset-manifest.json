@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GaldemATalk2/static/css/main.d62e409b.css",
+    "main.js": "/GaldemATalk2/static/js/main.eee5aa32.js",
+    "index.html": "/GaldemATalk2/index.html",
+    "main.d62e409b.css.map": "/GaldemATalk2/static/css/main.d62e409b.css.map",
+    "main.eee5aa32.js.map": "/GaldemATalk2/static/js/main.eee5aa32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d62e409b.css",
+    "static/js/main.eee5aa32.js"
+  ]
+}
