@@ -37,11 +37,11 @@ export const ASSETS = {
     stockholm: stockholm,
     folketsHusby: folketsHusby,
     collectiveImpactHusby: collectiveImpactHusby,
-    adidas: adidas,
-    headbrands: headbrands,
-    puma: puma,
     spotify: spotify,
     vitaminWell: vitaminWell,
+    puma: puma,
+    headbrands: headbrands,
+    adidas: adidas,
   },
   omOss: team3,
   pod: {
@@ -71,24 +71,6 @@ export const PARTNERS = [
     href: "https://impacthusby.se/",
   },
   {
-    key: "adidas",
-    src: adidas,
-    label: "Adidas",
-    href: "https://www.adidas.se/",
-  },
-  {
-    key: "headbrands",
-    src: headbrands,
-    label: "Headbrands",
-    href: "https://www.headbrands.se/",
-  },
-  {
-    key: "puma",
-    src: puma,
-    label: "Puma",
-    href: "https://www.puma.com/se/sv/",
-  },
-  {
     key: "spotify",
     src: spotify,
     label: "Spotify",
@@ -100,6 +82,24 @@ export const PARTNERS = [
     label: "Vitamin Well",
     href: "https://www.vitaminwell.com/",
   },
+  {
+    key: "puma",
+    src: puma,
+    label: "Puma",
+    href: "https://www.puma.com/se/sv/",
+  },
+  {
+    key: "headbrands",
+    src: headbrands,
+    label: "Headbrands",
+    href: "https://www.headbrands.se/",
+  },
+  {
+    key: "adidas",
+    src: adidas,
+    label: "Adidas",
+    href: "https://www.adidas.se/",
+  }
 ];
 
 export const MEMBERSHIP_URL =
