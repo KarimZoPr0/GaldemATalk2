@@ -31,7 +31,7 @@ export const Hero = () => {
       {/* Top ticker */}
       <div className="relative z-10 border-b border-[#F4F3EF]/15 pt-20 md:pt-24">
         <div className="max-w-[1400px] mx-auto px-5 md:px-10 py-3 flex flex-wrap items-center gap-x-6 gap-y-2 font-sub text-[11px] uppercase tracking-[0.22em]">
-          <span className="ticker-num text-[#A7B1E0]">Sedan 2023</span>
+          <span className="ticker-num text-[#A7B1E0]">Sedan 2019</span>
           <span className="opacity-60">/</span>
           <span>Husby — Stockholm</span>
           <span className="opacity-60">/</span>
@@ -47,7 +47,7 @@ export const Hero = () => {
               data-testid="hero-eyebrow"
               className="font-sub uppercase tracking-[0.26em] text-[12px] text-[#A7B1E0] mb-6"
             >
-              Husby — Stockholm — sedan 2023
+              Husby — Stockholm — sedan 2019
             </p>
 
             <h1

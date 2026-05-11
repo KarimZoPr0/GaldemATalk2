@@ -38,7 +38,7 @@ export const Articles = () => {
         </div>
 
         <ul data-testid="articles-list" className="rule-black">
-          {ARTICLES.map((a) => (
+          {sorted.map((a) => (
             <li
               key={a.id}
               data-testid={`article-card-${a.id}`}

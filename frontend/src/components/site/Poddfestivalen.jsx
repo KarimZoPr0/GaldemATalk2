@@ -42,7 +42,7 @@ export const Poddfestivalen = () => {
           {/* Meta column */}
           <div className="col-span-12 md:col-span-4 md:pt-4">
             <dl className="grid grid-cols-2 md:grid-cols-1 gap-5 md:gap-4 font-sub">
-              <Meta label="Grundad" value="2023" />
+              <Meta label="Grundad" value="2019" />
               <Meta label="Plats" value="Husby / Folkets Husby" />
               <Meta label="Upplagor" value="Pågående årlig festival" />
               <Meta label="Arrangörer" value="Galdem A Talk Förening" />
@@ -56,7 +56,7 @@ export const Poddfestivalen = () => {
             <p className="first-letter:font-display first-letter:text-6xl first-letter:leading-[0.8] first-letter:float-left first-letter:mr-3 first-letter:text-[#93C5FD]">
               Poddfestivalen är Sveriges första poddfestival — startad av
               Galdem A Talk Förening i Husby. En festival där podden blir
-              scen, och scenen blir ett samtal. Under några dagar samlas
+              scen, och scenen blir ett samtal. Under en dag samlas
               kreatörer, publik, paneler och nya röster för att prata om det
               som oftast tystas ned: förorten, systerskapet, kulturen och
               framtiden.

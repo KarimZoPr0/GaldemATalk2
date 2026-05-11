@@ -9,7 +9,7 @@ Bygg en hemsida för Galdem A Talk Förening — en svensk kultur- och samhälls
 - **Journalister & samarbetspartners** som vill få kontakt (mail + socials).
 
 ## Kärnkrav (statiska)
-- Svenska endast. Ingen databas / inget backend (FastAPI-templat lämnas orörd).
+- Svenska endast. Ingen databas / inget backend.
 - Sektioner: Hero, Partner-marquee (oändlig höger-scroll), Om oss + styrelse (utan profilbilder), Poddfestivalen (story + bildcollage), Artiklar (extensible lista), Medlemskaps-CTA, Footer.
 - Externa länkar: Google Form (medlemskap), Instagram, TikTok, YouTube, mailto, 3 artiklar (ungmedia.se, dopest.se, DN).
 - Data-testid på alla interaktiva element. Responsiv 375 / 768 / 1440.

@@ -1,18 +1,24 @@
 // Central content source. To add a new article, just push into `articles`.
+// Local assets live in `frontend/public/assets/`. We prefix with PUBLIC_URL so
+// the same paths work both in dev (PUBLIC_URL="") and in production builds
+// hosted on a sub-path like gh-pages (PUBLIC_URL="/GaldemATalk2").
+const PUBLIC_URL = process.env.PUBLIC_URL || "";
+const asset = (p) => `${PUBLIC_URL}${p}`;
+
 export const ASSETS = {
-  logo: "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/bo6kock2_huvudlogo.png",
-  heroBg: "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/cqtgjfgt_team4.jpg",
+  logo: asset("/assets/huvudlogo.png"),
+  heroBg: asset("/assets/team4.jpg"),
   partners: {
     stockholm: "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/2x7a24t2_StockholmsStad_logotypeStandardA4_300ppi_svart.png",
     folketsHusby: "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/mgffk323_folkets-husby-logo.png",
     galdemSamarbete: "https://customer-assets.emergentagent.com/job_7f7e729e-d443-4517-b018-1f5df145741b/artifacts/98v00qoh_galdem_a_talk_samarbete_logo.png",
   },
-  omOss: "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/6ff8hcxk_team3.jpg",
+  omOss: asset("/assets/team3.jpg"),
   pod: {
-    audience: "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/sr7rjhg8_audience.jpg",
-    panel: "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/gb09eeoy_panel.jpg",
-    stepRepeat: "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/ahr0y0xl_poddfest.jpg",
-    duo: "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/cij0jdwx_team2.jpg",
+    audience: asset("/assets/audience.jpg"),
+    panel: asset("/assets/panel.jpg"),
+    stepRepeat: asset("/assets/poddfest.jpg"),
+    duo: asset("/assets/team2.jpg"),
   },
 };
 
@@ -44,8 +50,7 @@ export const ARTICLES = [
       "“För oss är det folk som dör – för Netflix är det stora pengar”",
     excerpt:
       "Galdem A Talk omnämns i DN:s kulturreportage om Folkets Husby och hur förorten själv skapar sina rum för samtal, kultur och motstånd.",
-    image:
-      "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/gb09eeoy_panel.jpg",
+    image: asset("/assets/panel.jpg"),
     href: "https://www.dn.se/kultur/folkets-husby-for-oss-ar-det-folk-som-dor-for-netflix-ar-det-stora-pengar/",
     year: "2023",
   },
@@ -56,8 +61,7 @@ export const ARTICLES = [
     title: "Poddfestivalen 2024 — Husby, Stockholm",
     excerpt:
       "Poddfestivalen 2024 intar Husby. Galdem A Talk arrangerar sin tredje upplaga av festivalen med livepoddar, musik och fokus på representation i media.",
-    image:
-      "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/sr7rjhg8_audience.jpg",
+    image: asset("/assets/audience.jpg"),
     href: "https://dopest.se/poddfestival-2024-husby-stockholm/",
     year: "2024",
   },
@@ -68,8 +72,7 @@ export const ARTICLES = [
     title: "Månadens förening — augusti 2023",
     excerpt:
       "Galdem A Talk utsågs till Månadens förening i augusti 2023. Möt Galdem A Talk i ett samtal om varför föreningen startades och vad systerskap innebär på riktigt.",
-    image:
-      "https://customer-assets.emergentagent.com/job_suburb-voices/artifacts/cij0jdwx_team2.jpg",
+    image: asset("/assets/team2.jpg"),
     href: "https://ungmedia.se/manadens-forening-augusti-2023-galdem-a-talk/",
     year: "2023",
   },
