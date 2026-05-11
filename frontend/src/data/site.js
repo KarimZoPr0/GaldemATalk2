@@ -143,7 +143,6 @@ export const GALLERY = [
   { id: "team1", image: team1, alt: "team1" },
   { id: "team2", image: team2, alt: "team2" },
   { id: "team3", image: team3, alt: "team3" },
-  { id: "team4", image: team4, alt: "team4" },
   { id: "team5", image: team5, alt: "team5" },
   { id: "team6", image: team6, alt: "team6" },
 ];
