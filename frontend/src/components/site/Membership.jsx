@@ -60,8 +60,11 @@ export const Membership = () => {
             <ul className="space-y-4">
               {[
                 { t: "Påverka på riktigt", d: "Aktiva medlemmar driver utvecklingen framåt på föreningsmöten." },
-                { t: "Systerskap i praktiken", d: "Nätverk, arbetsgrupper och plats att ta." },
                 { t: "Från 16 år och uppåt", d: "Riktar sig särskilt till personer från förorter." },
+                {
+                  t: "Stöd när det behövs",
+                  d: "Som stödmedlem kan du bidra vid festivaler, projekt och praktiska insatser — i den omfattning du vill.",
+                },
               ].map((i, idx) => (
                 <li
                   key={i.t}

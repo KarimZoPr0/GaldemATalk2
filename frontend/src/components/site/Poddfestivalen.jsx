@@ -93,29 +93,11 @@ export const Poddfestivalen = () => {
             />
           </figure>
 
-          <figure className="col-span-6 md:col-span-5 relative md:mt-16">
-            <img
-              src={ASSETS.pod.duo}
-              alt="Värdar framför Poddfestivalens step-and-repeat"
-              className="w-full h-[200px] md:h-[320px] object-cover border-2 border-[#5C6BC0]"
-              loading="lazy"
-            />
-          </figure>
-
-          <figure className="col-span-6 md:col-span-4 md:col-start-2 relative">
+          <figure className="col-span-12 md:col-span-5 relative md:mt-16">
             <img
               src={ASSETS.pod.stepRepeat}
               alt="Besökare på Poddfestivalen"
-              className="w-full h-[240px] md:h-[360px] object-cover border-2 border-[#F4F3EF]"
-              loading="lazy"
-            />
-          </figure>
-
-          <figure className="col-span-12 md:col-span-7 relative">
-            <img
-              src={ASSETS.pod.panel}
-              alt="Paneldiskussion på scenen under Poddfestivalen"
-              className="w-full h-[260px] md:h-[380px] object-cover border-2 border-[#93C5FD]"
+              className="w-full h-[280px] md:h-[360px] object-cover border-2 border-[#F4F3EF]"
               loading="lazy"
             />
           </figure>

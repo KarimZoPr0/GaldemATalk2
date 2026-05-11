@@ -21,6 +21,8 @@ import puma from "@/assets/samarbete/puma-logo.png";
 import spotify from "@/assets/samarbete/spotify_logo.png";
 import vitaminWell from "@/assets/samarbete/Vitamin_well_logo.png";
 import galdemSamarbete from "@/assets/samarbete/galdem_a_talk_samarbete_logo.png";
+import peace from "@/assets/peace.jpg";
+import team1 from "@/assets/team1.jpg";
 import audience2 from "@/assets/audience2.jpeg";
 import panel2 from "@/assets/panel2.jpeg";
 import stage2 from "@/assets/stage2.jpeg";
@@ -45,9 +47,7 @@ export const ASSETS = {
   omOss: team3,
   pod: {
     audience: audience,
-    panel: panel,
     stepRepeat: poddfest,
-    duo: team2,
   },
 };
 
@@ -131,9 +131,19 @@ export const BOARD = [
  * `id` och `alt` är likadana (fil-/postnamn); `alt` används av skärmläsare.
  */
 export const GALLERY = [
+  { id: "audience", image: audience, alt: "audience" },
   { id: "audience2", image: audience2, alt: "audience2" },
+  { id: "panel", image: panel, alt: "panel" },
   { id: "panel2", image: panel2, alt: "panel2" },
+  { id: "peace", image: peace, alt: "peace" },
+  { id: "picnic", image: picnic, alt: "picnic" },
+  { id: "poddfest", image: poddfest, alt: "poddfest" },
+  { id: "stage", image: stage, alt: "stage" },
   { id: "stage2", image: stage2, alt: "stage2" },
+  { id: "team1", image: team1, alt: "team1" },
+  { id: "team2", image: team2, alt: "team2" },
+  { id: "team3", image: team3, alt: "team3" },
+  { id: "team4", image: team4, alt: "team4" },
   { id: "team5", image: team5, alt: "team5" },
   { id: "team6", image: team6, alt: "team6" },
 ];
