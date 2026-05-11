@@ -21,6 +21,11 @@ import puma from "@/assets/samarbete/puma-logo.png";
 import spotify from "@/assets/samarbete/spotify_logo.png";
 import vitaminWell from "@/assets/samarbete/Vitamin_well_logo.png";
 import galdemSamarbete from "@/assets/samarbete/galdem_a_talk_samarbete_logo.png";
+import audience2 from "@/assets/audience2.jpeg";
+import panel2 from "@/assets/panel2.jpeg";
+import stage2 from "@/assets/stage2.jpeg";
+import team5 from "@/assets/team5.jpeg";
+import team6 from "@/assets/team6.jpeg";
 
 export const ASSETS = {
   logo: huvudlogo,
@@ -121,50 +126,16 @@ export const BOARD = [
   { role: "Ledamot", name: "Hodman Liban" },
 ];
 
-/** Bilder till galleriet på startsidan — lägg till eller ändra här. */
+/**
+ * Bilder till galleriet på startsidan — bara rutnät, ingen synlig text i UI.
+ * `id` och `alt` är likadana (fil-/postnamn); `alt` används av skärmläsare.
+ */
 export const GALLERY = [
-  {
-    id: "panel-scen",
-    image: panel,
-    alt: "Paneldiskussion med flera deltagare",
-    caption: "Samtal och panel på scen.",
-  },
-  {
-    id: "publik",
-    image: audience,
-    alt: "Publik i salongen",
-    caption: "Publik vid livepodd och festival.",
-  },
-  {
-    id: "scenljus",
-    image: stage,
-    alt: "Scen med strålkastare",
-    caption: "Föreningens arrangemang på scen.",
-  },
-  {
-    id: "picknick",
-    image: picnic,
-    alt: "Gemensam stunds vid picknick",
-    caption: "Gemenskap och umgänge.",
-  },
-  {
-    id: "poddfest",
-    image: poddfest,
-    alt: "Poddfestivalen",
-    caption: "Poddfestivalen i Husby.",
-  },
-  {
-    id: "team-moment",
-    image: team2,
-    alt: "Galdem A Talk-arrangörer",
-    caption: "Bak kulisserna med teamet.",
-  },
-  {
-    id: "husby",
-    image: team3,
-    alt: "Galdem i lokalsamhället",
-    caption: "Galdem A Talk i Husby.",
-  },
+  { id: "audience2", image: audience2, alt: "audience2" },
+  { id: "panel2", image: panel2, alt: "panel2" },
+  { id: "stage2", image: stage2, alt: "stage2" },
+  { id: "team5", image: team5, alt: "team5" },
+  { id: "team6", image: team6, alt: "team6" },
 ];
 
 // Senaste först.
