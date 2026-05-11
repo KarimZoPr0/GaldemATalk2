@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GaldemATalk2/static/css/main.9d40cf7a.css",
-    "main.js": "/GaldemATalk2/static/js/main.907b1522.js",
+    "main.js": "/GaldemATalk2/static/js/main.9526d7b2.js",
     "static/media/team1.jpg": "/GaldemATalk2/static/media/team1.bff9314d4e66efb51f6b.jpg",
     "static/media/picnic.jpg": "/GaldemATalk2/static/media/picnic.31553c643a5eca6582b0.jpg",
     "static/media/stage.jpg": "/GaldemATalk2/static/media/stage.3968e3e4b1074ad5a802.jpg",
@@ -27,10 +27,10 @@
     "static/media/StockholmsStad_logo_svart.png": "/GaldemATalk2/static/media/StockholmsStad_logo_svart.a37d08f33f6031fc3fcd.png",
     "index.html": "/GaldemATalk2/index.html",
     "main.9d40cf7a.css.map": "/GaldemATalk2/static/css/main.9d40cf7a.css.map",
-    "main.907b1522.js.map": "/GaldemATalk2/static/js/main.907b1522.js.map"
+    "main.9526d7b2.js.map": "/GaldemATalk2/static/js/main.9526d7b2.js.map"
   },
   "entrypoints": [
     "static/css/main.9d40cf7a.css",
-    "static/js/main.907b1522.js"
+    "static/js/main.9526d7b2.js"
   ]
 }
