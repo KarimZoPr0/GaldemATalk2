@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/GaldemATalk2/static/css/main.d62e409b.css",
-    "main.js": "/GaldemATalk2/static/js/main.c185d94d.js",
+    "main.css": "/GaldemATalk2/static/css/main.762682d7.css",
+    "main.js": "/GaldemATalk2/static/js/main.9cd5dd5f.js",
+    "static/media/picnic.jpg": "/GaldemATalk2/static/media/picnic.31553c643a5eca6582b0.jpg",
+    "static/media/stage.jpg": "/GaldemATalk2/static/media/stage.3968e3e4b1074ad5a802.jpg",
+    "static/media/team4.jpg": "/GaldemATalk2/static/media/team4.db2aa97b35c17e63f88b.jpg",
+    "static/media/audience.jpg": "/GaldemATalk2/static/media/audience.5c5ac50de9239b02110f.jpg",
+    "static/media/team2.jpg": "/GaldemATalk2/static/media/team2.70558bf683b9ca9ab19e.jpg",
+    "static/media/panel.jpg": "/GaldemATalk2/static/media/panel.7c96e4d64a26c09572f9.jpg",
+    "static/media/poddfest.jpg": "/GaldemATalk2/static/media/poddfest.5cc17b0ee1b764b0fa84.jpg",
+    "static/media/huvudlogo.png": "/GaldemATalk2/static/media/huvudlogo.16ed3a2c60fe27384cac.png",
+    "static/media/team3.jpg": "/GaldemATalk2/static/media/team3.aba1c96fe512ab147cb8.jpg",
+    "static/media/galdem_a_talk_samarbete_logo.png": "/GaldemATalk2/static/media/galdem_a_talk_samarbete_logo.529d34679a94b3b5119c.png",
+    "static/media/puma-logo.png": "/GaldemATalk2/static/media/puma-logo.4ccd0de8cf79a0a77d5f.png",
+    "static/media/folkets-husby-logo.png": "/GaldemATalk2/static/media/folkets-husby-logo.1990ac36fe47714dfa7c.png",
+    "static/media/addidas_logo.png": "/GaldemATalk2/static/media/addidas_logo.86f032b0b01c1a6d78f2.png",
+    "static/media/spotify_logo.png": "/GaldemATalk2/static/media/spotify_logo.75e30939df0b93a86b36.png",
+    "static/media/collective_impact_husby_logo.png": "/GaldemATalk2/static/media/collective_impact_husby_logo.2eb70e61481e093f81aa.png",
+    "static/media/StockholmsStad_logo_svart.png": "/GaldemATalk2/static/media/StockholmsStad_logo_svart.a37d08f33f6031fc3fcd.png",
     "index.html": "/GaldemATalk2/index.html",
-    "main.d62e409b.css.map": "/GaldemATalk2/static/css/main.d62e409b.css.map",
-    "main.c185d94d.js.map": "/GaldemATalk2/static/js/main.c185d94d.js.map"
+    "main.762682d7.css.map": "/GaldemATalk2/static/css/main.762682d7.css.map",
+    "main.9cd5dd5f.js.map": "/GaldemATalk2/static/js/main.9cd5dd5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d62e409b.css",
-    "static/js/main.c185d94d.js"
+    "static/css/main.762682d7.css",
+    "static/js/main.9cd5dd5f.js"
   ]
 }
