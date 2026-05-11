@@ -5,6 +5,7 @@ const navLinks = [
   { label: "Om oss", href: "#om-oss" },
   { label: "Poddfestivalen", href: "#poddfestivalen" },
   { label: "Artiklar", href: "#artiklar" },
+  { label: "Medlemskap", href: "#medlemskap" },
   { label: "Galleri", href: "#galleri" },
   { label: "Kontakt", href: "#kontakt" },
 ];
