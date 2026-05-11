@@ -1,4 +1,5 @@
-import { ASSETS } from "@/data/site";
+import { ASSETS, PODDFESTIVALEN_URL } from "@/data/site";
+import { ArrowUpRight } from "lucide-react";
 
 export const Poddfestivalen = () => {
   return (
@@ -66,6 +67,18 @@ export const Poddfestivalen = () => {
               mötesplats där folk kommer långväga ifrån för att lyssna, ta
               plats och organisera sig.
             </p>
+            <div className="mt-10">
+              <a
+                href={PODDFESTIVALEN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="poddfest-site-link"
+                className="btn-paper"
+              >
+                Till Poddfestivalen
+                <ArrowUpRight size={18} strokeWidth={2.4} />
+              </a>
+            </div>
           </div>
         </div>
 

@@ -7,6 +7,7 @@ import { Poddfestivalen } from "@/components/site/Poddfestivalen";
 import { Articles } from "@/components/site/Articles";
 import { Membership } from "@/components/site/Membership";
 import { Partners } from "@/components/site/Partners";
+import { Gallery } from "@/components/site/Gallery";
 import { Footer } from "@/components/site/Footer";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <Articles />
       <Membership />
       <Partners />
+      <Gallery />
       <Footer />
     </main>
   );

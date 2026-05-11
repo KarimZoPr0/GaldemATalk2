@@ -76,14 +76,29 @@ export const Footer = () => {
             <span className="font-sub uppercase tracking-[0.2em] text-[11px] opacity-60 block mb-5">
               Kontakt
             </span>
-            <a
-              href={`mailto:${SOCIALS.mail}`}
-              data-testid="footer-mail-link"
-              className="inline-flex items-center gap-2 font-sub text-[18px] md:text-[22px] font-bold hover:text-[#A7B1E0] transition-colors break-all"
-            >
-              <Mail size={18} strokeWidth={2.2} />
-              {SOCIALS.mail}
-            </a>
+            <ul className="space-y-5">
+              {SOCIALS.emails.map((row) => (
+                <li key={row.address}>
+                  <a
+                    href={`mailto:${row.address}`}
+                    data-testid={`footer-mail-${row.address.replace("@", "-at-").replace(/\./g, "-")}`}
+                    className="group block hover:text-[#A7B1E0] transition-colors"
+                  >
+                    <span className="font-sub uppercase tracking-[0.18em] text-[11px] opacity-60 block mb-1.5">
+                      {row.label}
+                    </span>
+                    <span className="inline-flex items-start gap-2 font-sub text-[16px] md:text-[18px] font-bold break-all">
+                      <Mail
+                        size={18}
+                        strokeWidth={2.2}
+                        className="shrink-0 mt-0.5"
+                      />
+                      {row.address}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
 
             <div className="mt-7 flex flex-wrap gap-3">
               <SocialLink
@@ -123,7 +138,7 @@ export const Footer = () => {
         <div className="mt-20 md:mt-28 overflow-hidden">
           <h2
             aria-hidden="true"
-            className="font-display uppercase leading-[0.82] text-[#F4F3EF] whitespace-nowrap text-[clamp(4rem,18vw,20rem)] tracking-tight"
+            className="font-display uppercase leading-[0.82] text-[#F4F3EF] whitespace-nowrap text-[clamp(4rem,17vw,20rem)] tracking-tight"
           >
             Galdem A Talk
           </h2>
