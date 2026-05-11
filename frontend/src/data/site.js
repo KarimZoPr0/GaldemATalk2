@@ -107,10 +107,9 @@ export const SOCIALS = {
   instagram: "https://www.instagram.com/galdemforening",
   tiktok: "https://www.tiktok.com/@galdemforening",
   youtube: "https://youtube.com/@galdematalkforening",
-  /** Flera inkorgar — visa label + adress i t.ex. footern. */
   emails: [
     { label: "Galdem Förening", address: "forening@galdematalk.com" },
-    { label: "Galdem A Talk", address: "galdem@galdematalk.com" },
+    { label: "Galdem A Talk Podd", address: "Galdematalk@gmail.com" },
   ],
 };
 
