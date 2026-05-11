@@ -4,7 +4,6 @@
 // The favicon and og:image are referenced from public/index.html via %PUBLIC_URL%
 // and therefore also live as copies under `frontend/public/assets/`.
 import huvudlogo from "@/assets/huvudlogo.png";
-import team4 from "@/assets/team4.jpg";
 import team3 from "@/assets/team3.jpg";
 import team2 from "@/assets/team2.jpg";
 import picnic from "@/assets/picnic.jpg";
