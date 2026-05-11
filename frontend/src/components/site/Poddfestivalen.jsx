@@ -59,7 +59,7 @@ export const Poddfestivalen = () => {
               Galdem A Talk Förening i Husby. En festival där podden blir
               scen, och scenen blir ett samtal. Under en dag samlas
               kreatörer, publik, paneler och nya röster för att prata om det
-              som oftast tystas ned: förorten, systerskapet, kulturen och
+              som oftast tystas ned: förorten, gemenskapen, kulturen och
               framtiden.
             </p>
             <p className="mt-5">

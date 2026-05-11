@@ -42,7 +42,7 @@ export const Footer = () => {
 
             <p className="font-body text-[14px] leading-relaxed text-[#F4F3EF]/70 max-w-sm">
               Husby · Stockholm. En förening som står för representation,
-              inkludering, gemenskap och systerskap.
+              inkludering, gemenskap och solidaritet.
             </p>
           </div>
 

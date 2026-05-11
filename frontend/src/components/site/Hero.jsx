@@ -35,7 +35,7 @@ export const Hero = () => {
           <span className="opacity-60">/</span>
           <span>Husby — Stockholm</span>
           <span className="opacity-60">/</span>
-          <span>Representation · Inkludering · Systerskap</span>
+          <span>Representation · Inkludering · Solidaritet</span>
         </div>
       </div>
 
@@ -71,7 +71,7 @@ export const Hero = () => {
           <div className="col-span-12 md:col-span-3 md:pt-8">
             <div className="border-l-2 border-[#F4F3EF]/30 pl-5 md:pl-6">
               <p className="font-body text-[15px] md:text-[16px] leading-relaxed text-[#F4F3EF]/85 max-w-sm">
-                En kultur- och samhällsinriktad förening för systerskap,
+                En kultur- och samhällsinriktad förening för solidaritet,
                 organisering och röster från förorten. Vi är grundarna av
                 Sveriges <em className="text-[#A7B1E0] not-italic font-medium">första poddfestival</em>.
               </p>

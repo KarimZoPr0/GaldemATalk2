@@ -42,7 +42,7 @@ export const OmOss = () => {
                 </strong>
                 Galdem A Talk Förening är en kultur- och samhällsinriktad
                 förening som står för representation, inkludering, gemenskap och
-                systerskap. Vårt mål är att få personer som är 16 år och uppåt
+                solidaritet. Vårt mål är att få personer som är 16 år och uppåt
                 att ta plats och organisera sig — främst personer från
                 förorter, som vi vill skapa nya möjligheter och erfarenheter
                 för.
@@ -70,7 +70,7 @@ export const OmOss = () => {
               <div className="relative z-10 border-2 border-[#0F0F0F] bg-[#EAE8E1] p-2">
                 <img
                   src={ASSETS.omOss}
-                  alt="Systerskap — medlemmar kramas ute i naturen"
+                  alt="Gemenskap — medlemmar kramas ute i naturen"
                   className="w-full h-[420px] md:h-[520px] object-cover"
                   loading="lazy"
                 />
@@ -86,7 +86,7 @@ export const OmOss = () => {
               { n: "01", t: "Respekt", d: "Ärlighet och förståelse mellan medlemmar." },
               { n: "02", t: "Inkludering", d: "Alla ska känna sig delaktiga och uppskattade." },
               { n: "03", t: "Demokrati", d: "Medlemmarna driver utvecklingen framåt." },
-              { n: "04", t: "Systerskap", d: "Gemenskap som faktiskt bär hela vägen." },
+              { n: "04", t: "Solidaritet", d: "Vi lyfter varandra och håller ihop när det blåser." },
             ].map((v) => (
               <div key={v.n} className="flex flex-col">
                 <span className="font-display text-4xl md:text-5xl text-[#5C6BC0]">{v.n}</span>

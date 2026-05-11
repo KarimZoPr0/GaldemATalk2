@@ -191,7 +191,7 @@ export const ARTICLES = [
     outlet: "Ung Media Sverige",
     title: "Månadens förening — augusti 2023",
     excerpt:
-      "Galdem A Talk utsågs till Månadens förening i augusti 2023. Möt Galdem A Talk i ett samtal om varför föreningen startades och vad systerskap innebär på riktigt.",
+      "Galdem A Talk utsågs till Månadens förening i augusti 2023. Möt Galdem A Talk i ett samtal om varför föreningen startades och vad gemenskap och organisering betyder i praktiken.",
     image: team2,
     href: "https://ungmedia.se/manadens-forening-augusti-2023-galdem-a-talk/",
     year: "2023",
